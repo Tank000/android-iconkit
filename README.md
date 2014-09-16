@@ -7,9 +7,6 @@ An Android library that help you to build app with vector icon(font icon).
 
 **using icon font (like fontawesome.ttf) 400+ icons only ```112KB``` with all kind of color and size。[All Font-Awesom available icons](http://fortawesome.github.io/Font-Awesome/icons)**
 
-**[All Demo available icons](https://github.com/Tank000/android-iconkit/blob/master/iconkit/res/values/icons.xml)**
-
-
 ### About
 
 **iconkit** allows you to use any of the icon font like **[FontAwesome 4.1.0 icons by Dave Gandy](http://fortawesome.github.io/Font-Awesome/icons)** in your android app. Icons are infinitely **scalable**, and **customizable** with shadows and everything you can do on texts.
@@ -46,6 +43,17 @@ MenuItem github = menu.findItem(R.id.action_github);
 		ic.setColor(Color.WHITE);
 		github.setIcon(ic);
 ```
+
+
+### How to Use(Icon Font) #3
+
+If you want to use font-awesome icon and use your own icon , please follow the steps.
+# 1 open the website [icomoon](https://icomoon.io/app) and upload your svg images
+# 2 download your font,like icomoon.ttf. You can use your own font name.
+# 3 copy```icomoon.ttf``` to your project path ```assert/fonts``` .
+# 4 copy```IconTextView.java``` ```IconButton.java``` ```IconDrawable.java```to your project.
+# 5 modify ```icon.xml``` ,according to the following rules as ```.fa-home:before {content: "\f015";}``` to ```<string name="fa_home">"\uf015"</string>``
+# 6 Note:  ```fa-home``` is forbidden,use ```fa_home``` instead.
 
 -----
 
