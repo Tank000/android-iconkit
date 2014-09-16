@@ -1,3 +1,13 @@
+/**
+ * -------------------------------------------------------------
+ * Copyright (c) 2013 tank, All rights reserved.
+ * https://github.com/Tank000/android-iconkit
+ *
+ * @version: 1.0
+ * @author: tank.tyt@gmail.com
+ * -------------------------------------------------------------
+ */
+
 package com.tank.iconkit;
 
 import android.content.Context;
