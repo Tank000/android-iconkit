@@ -1,21 +1,23 @@
 
-> **[All available icons (439)](http://fortawesome.github.io/Font-Awesome/icons)**
+**With ```iconkit```you`ll never need to copy different dpi images (ldpi, mdpi, hdpi, xhdpi, xxhdpi..) for each icon you want to use in your app. you can also change their color or size easily.The code use Font-Awesome for showing.You can download other icon fonts in [icomoon](https://icomoon.io)**
+> **using icon font (like fontawesome.ttf) 400+ icons only ```112KB``` with all kind of color and size**
 
-**With ```Iconify```you`ll never need to copy different dpi images (ldpi, mdpi, hdpi, xhdpi, xxhdpi..) for each icon you want to use in your app. you can also change their color or size easily.The code use Font-Awesome for showing.You can download other icon fonts in [icomoon](https://icomoon.io)**
+> **[All Font-Awesom available icons](http://fortawesome.github.io/Font-Awesome/icons)**
 
+> **[All Demo available icons](https://github.com/Tank000/android-iconkit/blob/master/iconkit/res/values/icons.xml)**
 -----
 
 ### About
 
-**Iconify** allows you to include any of the **[FontAwesome 4.1.0 icons by Dave Gandy](http://fortawesome.github.io/Font-Awesome/icons)** in your texts, your ```ActionBar```, and even in your ```EditText```s. Icons are infinitely **scalable**, and **customizable** with shadows and everything you can do on texts.
+**iconkit** allows you to use any of the icon font like **[FontAwesome 4.1.0 icons by Dave Gandy](http://fortawesome.github.io/Font-Awesome/icons)** in your android app. Icons are infinitely **scalable**, and **customizable** with shadows and everything you can do on texts.
 
-### Get started #1 
+### How to Use(CustomView) #1 
 
 If you need icons on a ```TextView```, find string in string.xml.
 
 ```xml
 <IconTextView
-    android:text="{fa-android}"
+    android:text="@string/fa_github"
     android:shadowColor="#22000000"
     android:shadowDx="3"
     android:shadowDy="3"
@@ -28,7 +30,7 @@ If you need icons on a ```TextView```, find string in string.xml.
 > You can either use ```IconTextView``` / ```IconButton``` or use any ```TextView``` and then programmatically call ```setTypeface(Util.getTypeFace(getContext()));``` and ```setText(R.id.xxxx)```.
 
 
-### Get started #2
+### How to Use(IconDrawable) #2
 
 If you need an icon in an ```ImageView``` or in your ```ActionBar```, then you should use ```IconDrawable```. Again, icons are infinitely scalable and will never get fuzzy!
 
