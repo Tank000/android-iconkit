@@ -1,8 +1,10 @@
+SwipeBackLayout
+===
 
-**With ```iconkit```you`ll never need to copy different dpi images (ldpi, mdpi, hdpi, xhdpi, xxhdpi..) for each icon you want to use in your app. you can also change their color or size easily.The code use Font-Awesome for showing.You can download other icon fonts in [icomoon](https://icomoon.io)**
-> **using icon font (like fontawesome.ttf) 400+ icons only ```112KB``` with all kind of color and size**
+**With ```iconkit```you`ll never need to copy different dpi images (ldpi, mdpi, hdpi, xhdpi, xxhdpi..) for each icon you want to use in your app. you can also change their color or size easily.The code use Font-Awesome for showing.You can create other icon fonts by [icomoon](https://icomoon.io)**
 
-> **[All Font-Awesom available icons](http://fortawesome.github.io/Font-Awesome/icons)**
+**using icon font (like fontawesome.ttf) 400+ icons only ```112KB``` with all kind of color and size。[All Font-Awesom available icons](http://fortawesome.github.io/Font-Awesome/icons)**
+
 
 > **[All Demo available icons](https://github.com/Tank000/android-iconkit/blob/master/iconkit/res/values/icons.xml)**
 -----
