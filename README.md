@@ -13,7 +13,7 @@ An Android library that help you to build app with vector icon(font icon).
 
 ### How to Use(CustomView) #1 
 
-If you need icons on a ```TextView```, find string in string.xml.
+Find an icon in ```string.xml``` and use ```IconTextView``` like ```TextView```.
 
 ```xml
 <IconTextView
