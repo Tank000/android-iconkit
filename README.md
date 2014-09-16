@@ -48,12 +48,12 @@ MenuItem github = menu.findItem(R.id.action_github);
 ### How to Use(Icon Font) #3
 
 If you want to use font-awesome icon and use your own icon , please follow the steps.
-# 1 open the website [icomoon](https://icomoon.io/app) and upload your svg images
-# 2 download your font,like icomoon.ttf. You can use your own font name.
-# 3 copy```icomoon.ttf``` to your project path ```assert/fonts``` .
-# 4 copy```IconTextView.java``` ```IconButton.java``` ```IconDrawable.java```to your project.
-# 5 modify ```icon.xml``` ,according to the following rules as ```.fa-home:before {content: "\f015";}``` to ```<string name="fa_home">"\uf015"</string>``
-# 6 Note:  ```fa-home``` is forbidden,use ```fa_home``` instead.
+1. open the website [icomoon](https://icomoon.io/app) and upload your svg images
+2. download your font,like icomoon.ttf. You can use your own font name.
+3. copy```icomoon.ttf``` to your project path ```assert/fonts``` .
+4. copy```IconTextView.java``` ```IconButton.java``` ```IconDrawable.java```to your project.
+5. modify ```icon.xml``` ,according to the following rules as ```.fa-home:before {content: "\f015";}``` to ```<string name="fa_home">"\uf015"</string>``
+6. Note:  ```fa-home``` is forbidden,use ```fa_home``` instead.
 
 -----
 
