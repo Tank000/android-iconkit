@@ -5,11 +5,8 @@ An Android library that help you to build app with vector icon(font icon).
 
 **With ```iconkit```you`ll never need to copy different dpi images (ldpi, mdpi, hdpi, xhdpi, xxhdpi..) for each icon you want to use in your app. you can also change their color or size easily.The code use Font-Awesome for showing.You can create other icon fonts by [icomoon](https://icomoon.io)**
 
-**using icon font (like fontawesome.ttf) 400+ icons only ```112KB``` with all kind of color and size。[All Font-Awesom available icons](http://fortawesome.github.io/Font-Awesome/icons)**
+**Icon font (like fontawesome.ttf) 400+ icons only ```112KB``` with all kind of color and size。[All Font-Awesom available icons](http://fortawesome.github.io/Font-Awesome/icons)**
 
-### About
-
-**iconkit** allows you to use any of the icon font like **[FontAwesome 4.1.0 icons by Dave Gandy](http://fortawesome.github.io/Font-Awesome/icons)** in your android app. Icons are infinitely **scalable**, and **customizable** with shadows and everything you can do on texts.
 
 ### How to Use(CustomView) #1 
 
@@ -56,8 +53,16 @@ If you want to use font-awesome icon and use your own icon , please follow the s
 5.  modify ```icon.xml``` ,according to the following rules as ```.fa-home:before {content: "\f015";}``` to ```<string name="fa_home">"\uf015"</string>``
 6.  Note:  ```fa-home``` is forbidden,use ```fa_home``` instead.
 
------
 
+### How to create your own icon font
+
+**first, you should some svg icons.**
+**Then, open the website [icomoon](https://icomoon.io)**
+**soon, you will find so much icon more than you want!**
+
+
+**Note: Be careful with the license of the icon font**
+---
 
 ## License
 
