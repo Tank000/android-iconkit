@@ -58,7 +58,7 @@ If you want to use font-awesome icon and use your own icon , please follow the s
 
 **first, you should some svg icons.**
 **Then, open the website [icomoon](https://icomoon.io)**
-**soon, you will find so much icon more than you want!**
+**soon, you will find so many icons more than you want!**
 
 
 **Note: Be careful with the license of the icon font**
